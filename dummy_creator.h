@@ -1,5 +1,5 @@
-#ifndef APG_LANG_TOOLS_PROTOCOL__DUMMY_CREATOR_H
-#define APG_LANG_TOOLS_PROTOCOL__DUMMY_CREATOR_H
+#ifndef APG_LANG_TOOLS__DUMMY_CREATOR_H
+#define APG_LANG_TOOLS__DUMMY_CREATOR_H
 
 // includes
 #include "protocol.h"
@@ -14,8 +14,14 @@ namespace dummy
 
 lang_e create__lang_e();
 
+// objects
+
+
+// messages
+
+
 } // namespace dummy
 
 } // namespace lang_tools
 
-#endif // APG_LANG_TOOLS_PROTOCOL__DUMMY_CREATOR_H
+#endif // APG_LANG_TOOLS__DUMMY_CREATOR_H
