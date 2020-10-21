@@ -19,13 +19,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 13515 $ $Date:: 2020-08-18 #$ $Author: serge $
+// $Revision: 13998 $ $Date:: 2020-10-21 #$ $Author: serge $
 
 #include "str_helper.h"             // self
 
 #include "lang_tools/str_helper.h"  // lang_tools::to_string()
 
-NAMESPACE_LANG_TOOLS_START
+namespace lang_tools_protocol {
 
 namespace str_helper
 {
@@ -41,4 +41,4 @@ std::ostream & write( std::ostream & os, const lang_e r )
 
 } // namespace str_helper
 
-NAMESPACE_LANG_TOOLS_END
+} // namespace lang_tools_protocol

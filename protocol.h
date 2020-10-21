@@ -19,6 +19,17 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 13515 $ $Date:: 2020-08-18 #$ $Author: serge $
+// $Revision: 13988 $ $Date:: 2020-10-20 #$ $Author: serge $
+
+#ifndef APG_LANG_TOOLS_PROTOCOL__PROTOCOL_H
+#define APG_LANG_TOOLS_PROTOCOL__PROTOCOL_H
 
 #include "lang_tools/language_enum.h"   // lang_e
+
+namespace lang_tools_protocol {
+
+typedef ::lang_tools::lang_e lang_e;
+
+}
+
+#endif // APG_LANG_TOOLS_PROTOCOL__PROTOCOL_H

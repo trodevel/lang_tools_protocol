@@ -4,7 +4,7 @@
 // includes
 #include "protocol.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 namespace dummy
@@ -22,6 +22,6 @@ lang_e create__lang_e();
 
 } // namespace dummy
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 
 #endif // APG_LANG_TOOLS__DUMMY_CREATOR_H

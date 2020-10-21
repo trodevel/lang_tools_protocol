@@ -1,7 +1,7 @@
 // includes
 #include "object_initializer.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 // objects
@@ -12,5 +12,5 @@ namespace lang_tools
 
 // messages (constructors)
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 

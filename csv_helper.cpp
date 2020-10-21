@@ -3,7 +3,7 @@
 // includes
 #include "csv_helper.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 namespace csv_helper
@@ -20,5 +20,5 @@ std::ostream & write( std::ostream & os, const lang_e r )
 
 } // namespace csv_helper
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 

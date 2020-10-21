@@ -7,7 +7,7 @@
 // includes
 #include "protocol.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 namespace csv_helper
@@ -28,6 +28,6 @@ std::string to_csv( const T & l )
 
 } // namespace csv_helper
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 
 #endif // APG_LANG_TOOLS_PROTOCOL__CSV_HELPER_H

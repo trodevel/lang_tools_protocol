@@ -3,7 +3,7 @@
 #include "basic_parser/dummy_creator.h"
 #include "object_initializer.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 namespace dummy
@@ -28,5 +28,5 @@ lang_e create__lang_e()
 
 } // namespace dummy
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 

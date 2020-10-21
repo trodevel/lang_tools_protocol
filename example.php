@@ -1,13 +1,13 @@
 <?php
 
-namespace lang_tools;
+namespace lang_tools_protocol;
 
 
-// includes
-require_once 'protocol.php';
-require_once 'dummy_creator.php';
-require_once 'str_helper.php';
-require_once 'request_encoder.php';
+// own includes
+require_once __DIR__.'/../lang_tools_protocol/protocol.php';
+require_once __DIR__.'/../lang_tools_protocol/dummy_creator.php';
+require_once __DIR__.'/../lang_tools_protocol/str_helper.php';
+require_once __DIR__.'/../lang_tools_protocol/request_encoder.php';
 
 # objects
 
@@ -24,7 +24,7 @@ require_once 'request_encoder.php';
 
 }
 
-# namespace_end lang_tools
+// namespace_end lang_tools_protocol
 
 
 ?>

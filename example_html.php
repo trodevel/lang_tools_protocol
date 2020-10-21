@@ -1,12 +1,12 @@
 <?php
 
-namespace lang_tools;
+namespace lang_tools_protocol;
 
 
-// includes
-require_once 'protocol.php';
-require_once 'dummy_creator.php';
-require_once 'html_helper.php';
+// own includes
+require_once __DIR__.'/../lang_tools_protocol/protocol.php';
+require_once __DIR__.'/../lang_tools_protocol/dummy_creator.php';
+require_once __DIR__.'/../lang_tools_protocol/html_helper.php';
 
 # objects
 
@@ -23,7 +23,7 @@ require_once 'html_helper.php';
 
 }
 
-# namespace_end lang_tools
+// namespace_end lang_tools_protocol
 
 
 ?>

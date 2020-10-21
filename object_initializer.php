@@ -1,10 +1,10 @@
 <?php
 
-namespace lang_tools;
+namespace lang_tools_protocol;
 
 
-// includes
-require_once 'protocol.php';
+// own includes
+require_once __DIR__.'/../lang_tools_protocol/protocol.php';
 
 // objects
 
@@ -16,7 +16,7 @@ require_once 'protocol.php';
 
 // messages (constructors)
 
-# namespace_end lang_tools
+// namespace_end lang_tools_protocol
 
 
 ?>

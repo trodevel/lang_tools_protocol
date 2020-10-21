@@ -5,7 +5,7 @@
 
 int main()
 {
-    lang_tools::str_helper::write( std::cout, lang_tools::lang_e::EN );
+    lang_tools_protocol::str_helper::write( std::cout, lang_tools::lang_e::EN );
 
     std::cout << std::endl;
 

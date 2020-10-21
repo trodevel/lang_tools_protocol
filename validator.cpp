@@ -1,7 +1,7 @@
 // includes
 #include "validator.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 namespace validator
@@ -19,5 +19,5 @@ bool validate( const std::string & prefix, const lang_e r )
 
 } // namespace validator
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 

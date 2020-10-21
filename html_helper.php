@@ -1,11 +1,13 @@
 <?php
 
-namespace lang_tools;
+namespace lang_tools_protocol;
 
 
 // includes
 require_once __DIR__.'/../basic_parser/html_helper.php';
-require_once 'str_helper.php';
+
+// own includes
+require_once __DIR__.'/../lang_tools_protocol/str_helper.php';
 
 // enums
 
@@ -38,14 +40,14 @@ function to_html( $obj )
 
     if( array_key_exists( $type, $handler_map ) )
     {
-        $func = '\\lang_tools\\' . $handler_map[ $type ];
+        $func = '\\lang_tools_protocol\\' . $handler_map[ $type ];
         return $func( $obj );
     }
 
     return NULL;
 }
 
-# namespace_end lang_tools
+// namespace_end lang_tools_protocol
 
 
 ?>

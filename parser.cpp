@@ -19,14 +19,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-// $Revision: 13515 $ $Date:: 2020-08-18 #$ $Author: serge $
+// $Revision: 13998 $ $Date:: 2020-10-21 #$ $Author: serge $
 
 #include "parser.h"                 // self
 
 #include "basic_parser/parser.h"
 #include "basic_parser/malformed_request.h"
 
-NAMESPACE_LANG_TOOLS_START
+namespace lang_tools_protocol {
 
 namespace parser
 {
@@ -45,4 +45,4 @@ void get_value_or_throw( lang_e * res, const std::string & key, const generic_re
 
 }
 
-NAMESPACE_LANG_TOOLS_END
+} // namespace lang_tools_protocol

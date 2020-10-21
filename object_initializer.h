@@ -4,7 +4,7 @@
 // includes
 #include "protocol.h"
 
-namespace lang_tools
+namespace lang_tools_protocol
 {
 
 // objects
@@ -19,6 +19,6 @@ namespace lang_tools
 // messages (constructors)
 
 
-} // namespace lang_tools
+} // namespace lang_tools_protocol
 
 #endif // APG_LANG_TOOLS_PROTOCOL__OBJECT_INITIALIZER_H

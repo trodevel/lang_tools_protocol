@@ -1,11 +1,13 @@
 <?php
 
-namespace lang_tools;
+namespace lang_tools_protocol;
 
 
 // includes
 require_once __DIR__.'/../basic_parser/dummy_creator.php';
-require_once 'object_initializer.php';
+
+// own includes
+require_once __DIR__.'/../lang_tools_protocol/object_initializer.php';
 
 // enums
 
@@ -24,7 +26,7 @@ function create_dummy__lang_e()
 
 // messages
 
-# namespace_end lang_tools
+// namespace_end lang_tools_protocol
 
 
 ?>
