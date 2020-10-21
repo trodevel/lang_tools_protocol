@@ -1,4 +1,4 @@
-protocol lang_tools
+protocol lang_tools_protocol
 enum lang_e
     UNDEF = 0
     AB =  1
